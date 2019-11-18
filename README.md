@@ -1,6 +1,10 @@
 # flutter_tuto
 
-A new Flutter application.
+Flutter application
+
+Mathis Berthomé
+Jeanne Chevalard-Hernandez 
+Jocelyn Roul
 
 ## Getting Started
 
