@@ -8,27 +8,27 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Flutter Simple Login Demo',
+      title: 'Flutter App',
       theme: new ThemeData(
           primarySwatch: Colors.blue
       ),
-      home: new LoginPage(),
+      home: new MainPage(),
     );
   }
 }
 
-class LoginPage extends StatefulWidget {
+class MainPage extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => new _LoginPageState();
+  State<StatefulWidget> createState() => new _MainPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _MainPageState extends State<MainPage> {
 
   final TextEditingController _localisationFilter = new TextEditingController();
   final TextEditingController _Etablissement = new TextEditingController();
   String _localisation;
 
-  _LoginPageState() {
+  _MainPageState() {
     _localisationFilter.addListener(_LocalisationListen);
   }
 
